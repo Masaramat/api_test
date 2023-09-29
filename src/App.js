@@ -16,7 +16,7 @@ function App() {
       });
     } catch (error) {
       console.error('Error fetching data:', error);
-      setApiData({ headers: {}, body: 'Error fetching data' }); // Handle the error
+      setApiData({ headers: {}, body: 'Errors fetching data' }); // Handle the error
     }
   };
 
