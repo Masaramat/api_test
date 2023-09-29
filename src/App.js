@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to my api</h1>
-        <button onClick={fetchData}>Fetch Data from API</button>
+        <button onClick={fetchData}>Fetch API Data</button>
         <br></br>
         <button>
           <a
